@@ -12,12 +12,12 @@ export default function Home() {
         </div>
 
         <ul className="   text-2xl md:text-5xl mt-20">
-          <Link href="/basic">
+          <Link href="/frontend">
             <li className="mt-10 hover:scale-105 transition-all duration-3000 cursor-pointer">
               Frontend
             </li>
           </Link>
-          <Link href="/intermediate">
+          <Link href="/backend">
             <li className="mt-10 hover:scale-105 transition-all duration-3000 cursor-pointer">
               Backend
             </li>
