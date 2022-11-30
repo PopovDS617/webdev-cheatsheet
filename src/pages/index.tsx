@@ -14,19 +14,15 @@ export default function Home() {
         <ul className="   text-2xl md:text-5xl mt-20">
           <Link href="/basic">
             <li className="mt-10 hover:scale-105 transition-all duration-3000 cursor-pointer">
-              Basic
+              Frontend
             </li>
           </Link>
           <Link href="/intermediate">
             <li className="mt-10 hover:scale-105 transition-all duration-3000 cursor-pointer">
-              Intermediate
+              Backend
             </li>
           </Link>
-          <Link href="/advanced">
-            <li className="mt-10 hover:scale-105 transition-all duration-3000 cursor-pointer">
-              Advanced
-            </li>
-          </Link>
+        
         </ul>
       </div>
     </PageLayout>
